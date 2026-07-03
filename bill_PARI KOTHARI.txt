@@ -1,0 +1,17 @@
+============================================================
+SHOP BILL RECEIPT
+============================================================
+Customer Name : PARI KOTHARI
+Phone Number  : +919876509432
+
+Purchased Items:
+Rice | Qty: 2 | Amount: ₹100
+Tea | Qty: 7 | Amount: ₹700
+
+-----------------------------------
+Total Bill   : ₹800
+Discount     : ₹0
+Final Amount : ₹800
+-----------------------------------
+
+Thank You For Shopping!

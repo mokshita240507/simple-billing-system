@@ -1,0 +1,17 @@
+============================================================
+SHOP BILL RECEIPT
+============================================================
+Customer Name : priya
+Phone Number  : +917512098345
+
+Purchased Items:
+Tea | Qty: 10 | Amount: ₹1000
+Milk | Qty: 5 | Amount: ₹150
+
+-----------------------------------
+Total Bill   : ₹1150
+Discount     : ₹115.0
+Final Amount : ₹1035.0
+-----------------------------------
+
+Thank You For Shopping!

@@ -1,0 +1,16 @@
+============================================================
+SHOP BILL RECEIPT
+============================================================
+Customer Name : mokshita
+Phone Number  : +919870675432
+
+Purchased Items:
+Milk | Qty: 6 | Amount: ₹180
+
+-----------------------------------
+Total Bill   : ₹180
+Discount     : ₹0
+Final Amount : ₹180
+-----------------------------------
+
+Thank You For Shopping!

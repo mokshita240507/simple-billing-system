@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# Simple Billing System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Python-based Simple Billing System that allows users to generate customer bills, calculate the total amount, and save billing records into text files.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Generate bills for customers
+- Store customer billing records
+- Save bills in separate text files
+- Maintain a record of registered customer numbers
+- Easy-to-use command-line interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Python
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Simple-Billing-System/
+
+├── main.py
+├── registered_numbers.txt
+├── bill_mokshita.txt
+├── bill_PARI KOTHARI.txt
+├── bill_PRACHI.txt
+├── bill_priya.txt
+├── bill_rohi.txt
+└── README.md
+
+---
+
+## How to Run the Project
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Run the following command:
+
+```bash
+python main.py
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Future Improvements
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Database integration
+- PDF invoice generation
+- GST calculation
+- Graphical User Interface (GUI)
+- Login authentication
+
+---
+
+## Author
+
+**Mokshita Kothari**
+
+B.Tech CSE (AI & ML)
+
+JECRC University, Jaipur
+
+---
+
+## License
+
+This project is created for educational and learning purposes.
